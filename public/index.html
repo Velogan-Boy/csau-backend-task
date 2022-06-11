@@ -7,6 +7,39 @@
       <title>CSAU BACKEND TASK</title>
    </head>
    <body>
-      <h1>CSAU BACKEND TASK</h1>
+      <h1 id="csau-backend-task-creating-rest-api">CSAU BACKEND TASK - Creating REST API</h1>
+      <p><img src="https://user-images.githubusercontent.com/80830391/173199117-0e920c62-4984-411f-a7ef-4e42133f7b14.png" alt="image"></p>
+<p>  This project is made as a task for joining Vice Director of Web and App Domain in Computer Society of Anna University (CSAU)</p>
+<h1 id="tech-stack-used-">Tech stack used:</h1>
+<ul>
+<li>Node.Js</li>
+<li>Express.Js</li>
+<li>Database: MongoDB (NoSQL database)</li>
+<li>Validations are done using JOI library</li>
+<li>Successfully Deployed in Heroku</li>
+<li>Database deployed in Cloud MongoDb</li>
+</ul>
+<h1 id="people-routes-people-">People Routes (/people)</h1>
+<ul>
+<li>GET /maxAge =&gt; returns the details of a person with the maximum age. In case of a tie in age,
+return the details of the persons who have the same age.</li>
+<li>GET /phoneMatch =&gt; returns the details of a person(s) whose starting and ending digits of a
+phone number are the same.</li>
+<li>Data in Backendtask1.json can be imported in MongoDB database using npm script import-data </li>
+<li>Data in MongoDB database can be flushed using npm script delete-data</li>
+</ul>
+<h1 id="club-members-routes-club-">Club Members Routes (/club)</h1>
+<p>Name, Register Number, Department, Tag (Red, Brown etc), Domain (Tech,
+Marketing, Design etc), Mobile Number, Email are collected.
+Data  validated properly before storing into the database.
+Server and Validation errors are handled.</p>
+<ul>
+<li>GET / =&gt; For getting all club members</li>
+<li>GET /:id =&gt; For getting club member by id</li>
+<li>POST / =&gt; Register new club member</li>
+<li>PATCH /:id =&gt; For updated club member details by id</li>
+<li>DELETE / =&gt; for deleting club member by id </li>
+</ul>
+
    </body>
 </html>
