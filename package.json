@@ -1,0 +1,28 @@
+{
+   "name": "backend_task",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon index.js",
+      "dev": "SET NODE_ENV=development&& nodemon index.js",
+      "import-data": "node ./data/import-data.js --import",
+      "delete-data": "node ./data/import-data.js --delete"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "helmet": "^5.1.0",
+      "joi": "^17.6.0",
+      "mongoose": "^6.3.6",
+      "morgan": "^1.10.0"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.16"
+   }
+}
