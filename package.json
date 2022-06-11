@@ -6,7 +6,7 @@
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "nodemon index.js",
-      "dev": "SET NODE_ENV=development&& nodemon index.js",
+      "dev": "SET NODE_ENV=development&& node index.js",
       "import-data": "node ./data/import-data.js --import",
       "delete-data": "node ./data/import-data.js --delete"
    },
