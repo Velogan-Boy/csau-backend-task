@@ -1,9 +1,9 @@
 ![image](https://user-images.githubusercontent.com/80830391/173199117-0e920c62-4984-411f-a7ef-4e42133f7b14.png)
 
-## CSAU BACKEND TASK - Creating REST API
+# CSAU BACKEND TASK - Creating REST API
   This project is made as a task for joining Vice Director of Web and App Domain in Computer Society of Anna University (CSAU)
 
-# Tech stack used: 
+## Tech stack used: 
  - Node.Js
  - Express.Js
  - Database: MongoDB (NoSQL database)
@@ -11,7 +11,7 @@
  - Successfully Deployed in Heroku
  - Database deployed in Cloud MongoDb
   
-# People Routes (/people)
+### People Routes (/people)
 - GET /maxAge => returns the details of a person with the maximum age. In case of a tie in age,
 return the details of the persons who have the same age.
 - GET /phoneMatch => returns the details of a person(s) whose starting and ending digits of a
@@ -20,7 +20,7 @@ phone number are the same.
 - Data in MongoDB database can be flushed using npm script delete-data
 
 
-# Club Members Routes (/club)
+### Club Members Routes (/club)
 Name, Register Number, Department, Tag (Red, Brown etc), Domain (Tech,
 Marketing, Design etc), Mobile Number, Email are collected.
 Data  validated properly before storing into the database.
